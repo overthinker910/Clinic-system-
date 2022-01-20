@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <h1>Patient Booking</h1>
+    </head>
+ <body style="background-color:rgb(150, 188, 231);">
+    <div class="container">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+
+        <br></br>
+<div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+</div>
+
+<br></br>
+<div>
+    <label for="Contact">Contact</label>
+    <input type="text" id="Contact" name="Contact" placeholder="Your contact..">
+</div>
+<br></br>
+<div>
+    <label for="Age">Age</label>
+    <input type="text" id="Age" name="Age" placeholder="Your Age ..">
+</div>
+<br></br>
+
+<form action="/action_page.php">
+    <label for="Appointment date ">Appointment date:</label>
+    <input type="date" id="Appointment Date" name="Appointment Date">
+ 
+  </form>
+  <br></br>
+
+
+<div>
+    <label for="Doctor">Doctor</label>
+    <select id="Doctor" name="Doctor">
+      <option value="Christina Erdmann, P.A.-C.">Christina Erdmann, P.A.-C.</option>
+      <option value=" Gregory Spindler, C.R.N.A"> Gregory Spindler, C.R.N.A</option>
+      <option value="Sidni Styer, A.P.N.P.">Sidni Styer, A.P.N.P.</option>
+      <option value="Alexander Covington, M.D.">Alexander Covington, M.D.</option>
+      <option value="  Anika Kinniry, , C.N.P.">  Anika Kinniry, , C.N.P.</option>
+      <option value=" Kelsey Kidd, C.N.P."> Kelsey Kidd, C.N.P.</option>
+      <option value="    Erik Wing, Ph.D.">    Erik Wing, Ph.D.</option>
+      <option value="   Justine Abel, D.O.">   Justine Abel, D.O.</option>
+     
+    </select>
+</div>
+<br></br>
+<div>
+    <label for="health">Patients health issue</label>
+    <textarea id="subject" name="Patients Health issue" placeholder="Write something.." ></textarea>
+</div>
+<br></br>
+<div>
+<label for="Visited_before">Have you Visited us before?</label>
+
+<select name="Visited_before" id="Visited_before" multiple>
+  <option value="yes">yes</option>
+  <option value="no">no</option>
+
+</select>
+</div>
+<br></br>
+
+    <input type="submit" value="Submit">
+  
+</div>
+</body>
+</html>
