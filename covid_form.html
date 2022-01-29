@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Covid Form</title>
+    <link rel="stylesheet" href="nav_bar.css">
+    <div class="topnav">
+        <a href="main.html">Home</a>
+        <a href="medicines.html">Medicine</a>
+        <a class="active" href="covid_form.html">Covid Form</a>
+        <a href="doctor_info.html">Doctor Info</a>
+        <a href="search_doctor.html">Search Doctor</a>
+        <a href="patient_form.html">Patient Form</a>
+        <a  href="contact_us.html">Contact Us</a>
+        <a  href="login_page.html">Login</a>
+    </div>
+</head>
+<hr size="3">
+<body>
+<h2>Covid Vaccination Appointment</h2>
+<hr size="3">
+</body>
+ <body style="background-color:lightgoldenrodyellow;">
+    <div class="container">
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+
+        <br></br>
+<div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+</div>
+
+<br></br>
+<div>
+    <label for="Contact">Contact</label>
+    <input type="text" id="Contact" name="Contact" placeholder="Your contact..">
+</div>
+<br></br>
+<div>
+    <label for="Age">Age</label>
+    <input type="text" id="Age" name="Age" placeholder="Your Age ..">
+</div>
+<br></br>
+
+<label for="Dose">Type of Dose</label>
+
+<select name="Dose" id="Dose" multiple>
+  <option value="yes">first</option>
+  <option value="no">second</option>
+
+</select>
+</div>
+<br></br>
+
+
+<form action="/action_page.php">
+    <label for="Appointment date ">Appointment date:</label>
+    <input type="date" id="Appointment Date" name="Appointment Date">
+ 
+  </form>
+  <br></br>
+
+
+<div>
+    <label for="Doctor">Time slot</label>
+    <select id="Doctor" name="Doctor">
+      <option value="1">9.30 am</option>
+      <option value=" 2">11 am</option>
+      <option value="3">12.30 pm</option>
+      <option value="4">2 pm</option>
+      <option value="5">3.30 pm</option>
+      <option value="6">5 pm</option>
+    </select>
+</div>
+<br></br>
+<div>
+    <input type="submit" value="Submit">
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body
+{
+    background-image:url('login.png'); 
+    background-repeat: no-repeat;
+  background-size: 1540px 754px; 
+}
+.cont{
+width: 500px;
+height:600px;
+text-align:center;
+margin: auto;
+color:white;
+font-size: 25px;
+}
+
+#login_title
+{
+    color:#5396b8;
+}
