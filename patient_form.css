@@ -1,0 +1,38 @@
+.body{
+    background-image: url('patient_form.png');
+    background-repeat: no-repeat;
+    background-size: 1540px 754px; 
+  }
+.container
+{
+    text-align:center;
+    background-color:#a8d0e4;
+    opacity:80%;
+    width:1000px;
+    height:400px;
+    margin: auto;
+    padding-top:3px;
+    font-size: 20px;
+   
+}
+.left
+{
+    float:left;
+    text-align: justify
+}
+.right
+{
+    float:right;
+    text-align: justify
+}
+.title
+{
+    color:#da7f92;
+    text-align: center;
+     text-shadow: 2px 2px 4px #e4adb9;
+     font-family:Garamond;
+     font-size: 45px;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     word-spacing: 8px;
+}

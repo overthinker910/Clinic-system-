@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <h1>Patient Booking</h1>
+ 
       <div class="topnav">
         <a  href="main.html">Home</a>
         <a  href="medicines.html">Medicine</a>
@@ -13,42 +13,47 @@
         <a  href="login_page.html">Login</a>
       </div>
     </head>
-    <link rel="stylesheet" href="css/nav_bar.css">
-    <hr size="3">
+
+
+    <link rel="stylesheet" href="nav_bar.css">
+    <link rel="stylesheet" href="patient_form.css">
+    <br>
+
  <body style="background-color:rgb(150, 188, 231);">
+  <div class="title">
+    Patient           Appointment           Form
+  </div>
     <div class="container">
-        <div>
+      <br>
+        <div class="left">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
         </div>
 
-        <br></br>
-<div>
+<div class="right">
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 </div>
 
 <br></br>
-<div>
+<div class="left">
     <label for="Contact">Contact</label>
     <input type="text" id="Contact" name="Contact" placeholder="Your contact..">
 </div>
-<br></br>
-<div>
+
+<div class="right">
     <label for="Age">Age</label>
     <input type="text" id="Age" name="Age" placeholder="Your Age ..">
 </div>
 <br></br>
-
+<div class="left">
 <form action="/action_page.php">
     <label for="Appointment date ">Appointment date:</label>
     <input type="date" id="Appointment Date" name="Appointment Date">
  
-  </form>
-  <br></br>
-
-
-<div>
+  </form></div>
+ 
+<div class="right">
     <label for="Doctor">Doctor</label>
     <select id="Doctor" name="Doctor">
       <option value="Christina Erdmann, P.A.-C.">Christina Erdmann, P.A.-C.</option>
@@ -63,12 +68,11 @@
     </select>
 </div>
 <br></br>
-<div>
+<div class="left">
     <label for="health">Patients health issue</label>
     <textarea id="subject" name="Patients Health issue" placeholder="Write something.." ></textarea>
 </div>
-<br></br>
-<div>
+<div class="right">
 <label for="Visited_before">Have you Visited us before?</label>
 
 <select name="Visited_before" id="Visited_before" multiple>
@@ -77,10 +81,12 @@
 
 </select>
 </div>
-<br></br>
 
+<br>
     <input type="submit" value="Submit">
-  
+  <br>
+  <br>
+  <br>
 </div>
 </body>
 </html>
