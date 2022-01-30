@@ -19,30 +19,30 @@
     <link rel="stylesheet" href="patient_form.css">
     <br>
 
- <body style="background-color:rgb(150, 188, 231);">
+ <body>
   <div class="title">
     Patient           Appointment           Form
   </div>
     <div class="container">
       <br>
         <div class="left">
-            <label for="fname">First Name</label>
+            <label for="fname">First Name: </label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
         </div>
 
 <div class="right">
-    <label for="lname">Last Name</label>
+    <label for="lname">Last Name: </label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 </div>
 
 <br></br>
 <div class="left">
-    <label for="Contact">Contact</label>
+    <label for="Contact">Contact: </label>
     <input type="text" id="Contact" name="Contact" placeholder="Your contact..">
 </div>
 
 <div class="right">
-    <label for="Age">Age</label>
+    <label for="Age">Age: </label>
     <input type="text" id="Age" name="Age" placeholder="Your Age ..">
 </div>
 <br></br>
@@ -54,7 +54,7 @@
   </form></div>
  
 <div class="right">
-    <label for="Doctor">Doctor</label>
+    <label for="Doctor">Doctor: </label>
     <select id="Doctor" name="Doctor">
       <option value="Christina Erdmann, P.A.-C.">Christina Erdmann, P.A.-C.</option>
       <option value=" Gregory Spindler, C.R.N.A"> Gregory Spindler, C.R.N.A</option>
@@ -69,13 +69,13 @@
 </div>
 <br></br>
 <div class="left">
-    <label for="health">Patients health issue</label>
+    <label for="health">Patients health issue: </label>
     <textarea id="subject" name="Patients Health issue" placeholder="Write something.." ></textarea>
 </div>
 <div class="right">
 <label for="Visited_before">Have you Visited us before?</label>
 
-<select name="Visited_before" id="Visited_before" multiple>
+<select name="Visited_before" id="Visited_before">
   <option value="yes">yes</option>
   <option value="no">no</option>
 
@@ -83,7 +83,8 @@
 </div>
 
 <br>
-    <input type="submit" value="Submit">
+    <div id="submit">
+    <input type="submit" value="Submit"></div>
   <br>
   <br>
   <br>

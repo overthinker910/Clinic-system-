@@ -1,4 +1,4 @@
-.body{
+body{
     background-image: url('patient_form.png');
     background-repeat: no-repeat;
     background-size: 1540px 754px; 
@@ -8,23 +8,52 @@
     text-align:center;
     background-color:#a8d0e4;
     opacity:80%;
-    width:1000px;
+    width:800px;
     height:400px;
     margin: auto;
+    margin-top: 30px;
     padding-top:3px;
     font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
    
 }
+input[type=text], select, textarea {
+    padding: 7px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+    resize: vertical;
+}
+
+input[type=submit] {
+  background-color: hotpink ;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .left
 {
+    padding-top: 10px;
     float:left;
-    text-align: justify
-}
+    text-align: justify;}
 .right
 {
+    padding-top: 10px;
     float:right;
     text-align: justify
 }
+
+#submit{
+    position: absolute; 
+    bottom: 60px;
+    margin-left: 45%;
+}
+
 .title
 {
     color:#da7f92;
