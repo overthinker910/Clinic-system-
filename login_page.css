@@ -5,15 +5,32 @@ body
   background-size: 1540px 754px; 
 }
 .cont{
-width: 500px;
-height:600px;
 text-align:center;
-margin: auto;
-color:white;
+color:#042a3d;
 font-size: 25px;
 }
-
 #login_title
 {
-    color:#5396b8;
+   
+    color:#da7f92;
+    text-align: center;
+     text-shadow: 2px 2px 4px #e4adb9;
+     font-family:Garamond;
+     font-size: 23px;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     word-spacing: 8px;
+}
+.container
+{
+    text-align:center;
+    background-color:#dde9e3;
+    opacity:50%;
+    width:50%;
+    height:350px;
+    margin: auto;
+    padding-top:10px;
+    font-size: 25px;
+  margin-left: auto;
+  margin-right: auto; 
 }
