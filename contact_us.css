@@ -3,3 +3,35 @@ body{
     background-repeat: no-repeat;
   background-size: 1540px 754px; 
 }
+
+.container{ 
+float: right;
+margin-right: 25%;
+color:#B8405E;
+margin-top: 7%;
+background-color: lightcyan;
+opacity:80%;
+padding: 40px;
+border-style: solid;
+border-radius: 7px;
+border-width: 5px;
+ }
+
+ #contact{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond';
+    border: blueviolet;
+    border-width: 5px;
+ }
+ #email{
+ font-size: 30px;
+    font-family: 'Cormorant Garamond';
+    border: blueviolet;
+    border-width: 5px;
+ }
+ #open{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond';
+    border: blueviolet;
+    border-width: 5px;
+ }
