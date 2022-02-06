@@ -19,12 +19,15 @@ body{
     position: relative;
    
 }
-input[type=text], select, textarea {
+input[type=text], select, textarea{
     padding: 7px;
   border: 1px solid #ccc; 
   border-radius: 4px; 
   box-sizing: border-box; 
     resize: vertical;
+}
+label{
+    font-family: 'Questrial', sans-serif;
 }
 
 input[type=submit] {
@@ -59,7 +62,7 @@ input[type=submit] {
     color:#da7f92;
     text-align: center;
      text-shadow: 2px 2px 4px #e4adb9;
-     font-family:Garamond;
+     font-family: 'Questrial', sans-serif;
      font-size: 45px;
      text-transform: uppercase;
      letter-spacing: 5px;

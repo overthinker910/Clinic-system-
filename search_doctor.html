@@ -2,9 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Search Doctor</title>
+	<title>Search for doctor</title>
   <link rel="stylesheet" href="nav_bar.css">
   <link rel="stylesheet" href="search_doctor.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Questrial&display=swap" rel="stylesheet">
+
   <div class="topnav">
     <a  href="main.html">Home</a>
     <a  href="medicines.html">Medicine</a>
@@ -17,13 +21,13 @@
   </div>
 </head>
 <hr size="3">
-<body style="background-color:lightcoral;">
-<h1> Search for Doctor </h1>
+<body>
+<h1>Search for Doctor</h1>
 <hr size="3">
-  <br></br>
-<div>
-    <label for="Disease">Search by condition: </label>
-    <select id="condition" name="Doctor">
+<div class="container">
+  <div id="condition">
+    <label id="condition" for="Disease">Search by condition: </label>
+    <select   id="box" name="Doctor">
       <option value="1">Dentist</option>
       <option value=" 2">Physician</option>
       <option value="3">Ophthalmologist</option>
@@ -31,13 +35,13 @@
       <option value="5">Dermatologist</option>
     </select>
 </div>
-  <br></br>
-  <div>
-    <label for="Time">Search by time: </label>
-    <select id="condition" name="Doctor">
+  <div id="time">
+    <label id="time" for="Time">Search by time: </label>
+    <select id="box" name="Doctor">
       <option value="1">7am to 12.30pm</option>
       <option value=" 2">2pm to 7pm</option>
     </select>
+</div>
 </div>
 </body>
 </html>

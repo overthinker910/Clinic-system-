@@ -34,3 +34,24 @@ font-size: 25px;
   margin-left: auto;
   margin-right: auto; 
 }
+
+input[type=text], select, textarea {
+    padding: 7px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+    resize: vertical;
+}
+
+button[type=submit] {
+  background-color: hotpink ;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#temp{
+    color: black;
+    font-size: 15px;
+}
