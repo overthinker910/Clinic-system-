@@ -15,66 +15,67 @@
         <a  href="login_page.html">Login</a>
     </div>
 </head>
-
-<body>
-<h2>Covid Vaccination Appointment</h2>
-
+<link rel="stylesheet" href="covid_form.css">
+<body >
+<div class="title">
+<h2>Covid Vaccination Appointment</h2></div>
 </body>
- <body style="background-color:lightgoldenrodyellow;">
+ <body>
+
     <div class="container">
-        <div>
+        
+        <div class="left">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
         </div>
 
-        <br></br>
-<div>
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-</div>
 
-<br></br>
-<div>
-    <label for="Contact">Contact</label>
-    <input type="text" id="Contact" name="Contact" placeholder="Your contact..">
-</div>
-<br></br>
-<div>
-    <label for="Age">Age</label>
-    <input type="text" id="Age" name="Age" placeholder="Your Age ..">
-</div>
-<br></br>
+        <div class="right">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+<br><br><br>
 
-<label for="Dose">Type of Dose</label>
+    <div class ="left">
+        <label for="Contact">Contact</label>
+        <input type="text" id="Contact" name="Contact" placeholder="Your contact..">
+    </div>
 
-<select name="Dose" id="Dose" multiple>
-  <option value="yes">first</option>
-  <option value="no">second</option>
+    <div class="right">
+        <label for="Age">Age</label>
+        <input type="text" id="Age" name="Age" placeholder="Your Age ..">
+    </div>
 
-</select>
-</div>
-<br></br>
+<br><br><br>
 
-
-<form action="/action_page.php">
-    <label for="Appointment date ">Appointment date:</label>
-    <input type="date" id="Appointment Date" name="Appointment Date">
- 
-  </form>
-  <br></br>
-
-
-<div>
-    <label for="Doctor">Time slot</label>
-    <select id="Doctor" name="Doctor">
-      <option value="1">9.30 am</option>
-      <option value=" 2">11 am</option>
-      <option value="3">12.30 pm</option>
-      <option value="4">2 pm</option>
-      <option value="5">3.30 pm</option>
-      <option value="6">5 pm</option>
+    <div class="left">
+    <label for="Dose">Type of Dose</label>
+    <select name="Dose" id="Dose">
+    <option value="yes">first</option>
+    <option value="no">second</option>
     </select>
-</div>
+    </div>
+
+    <div class="right">
+    <form action="/action_page.php">
+        <label for="Appointment date ">Appointment date:</label>
+        <input type="date" id="Appointment Date" name="Appointment Date"> 
+    </form>
+    </div>
+
+ <br></br>
+ <br>
+    <div class="left">
+        <label for="Doctor">Time slot</label>
+        <select id="Doctor" name="Doctor">
+        <option value="1">9.30 am</option>
+        <option value=" 2">11 am</option>
+        <option value="3">12.30 pm</option>
+        <option value="4">2 pm</option>
+        <option value="5">3.30 pm</option>
+        <option value="6">5 pm</option>
+        </select>
+    </div>
 <br></br>
 <div>
     <input type="submit" value="Submit">
