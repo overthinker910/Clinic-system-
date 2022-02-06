@@ -1,4 +1,54 @@
 body
 {
     background-image:url('search_doctor.png');
+    background-repeat: no-repeat;
+    background-size: 1540px 754px; 
+}
+
+.container{
+background-color: #51b6b6;
+ text-align:center;
+opacity:50%;
+width:800px;
+height:350px;
+margin: auto;
+margin-top: 2px;
+padding-top:10px;
+font-size: 20px;
+padding-left: 20px;
+padding-right: 20px;
+position: relative;
+float: left;
+margin-left: 5px;
+border-radius: 20px;
+
+}
+
+#condition{
+    float: left;
+    margin-left: 5px;
+}
+
+#time{
+    float: left;
+    margin-left: 10px;
+}
+
+label{
+    font-family: 'Questrial', sans-serif;
+    color: darkblue;
+}
+
+body h1{
+   font-family: 'Montserrat', sans-serif;
+   color: #3D7EA6;
+}
+
+select[id=box]{
+padding: 7px;
+border: 1px solid #ccc; 
+border-radius: 4px; 
+box-sizing: border-box; 
+resize: vertical;
+margin-left: 5px;
 }
