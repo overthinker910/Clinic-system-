@@ -2,4 +2,19 @@
 {
     float:right;
     margin-right: 150px;
+    margin-top:40px;
+
 }
+body
+{
+    background-image:url('medicine.png');
+    background-repeat: no-repeat;
+    background-size: 1540px 754px; 
+}
+table, th, td {
+    border: 1px solid #787f81;
+    border-collapse: collapse
+  }
+  tr:nth-child(even) {
+    background-color: #579797;
+  }
