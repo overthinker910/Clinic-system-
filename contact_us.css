@@ -6,32 +6,32 @@ body{
 
 .container{ 
 float: right;
-margin-right: 25%;
-color:#B8405E;
+margin-right:15%;
 margin-top: 7%;
-background-color: lightcyan;
-opacity:80%;
 padding: 40px;
-border-style: solid;
-border-radius: 7px;
-border-width: 5px;
  }
+#heading
+{
+   font-size: 27px;
+   font-family: 'Questrial', sans-serif;
+   color:rgb(0, 0, 0);
 
+}
  #contact{
-    font-size: 30px;
-    font-family: 'Cormorant Garamond';
-    border: blueviolet;
-    border-width: 5px;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+  
  }
  #email{
- font-size: 30px;
-    font-family: 'Cormorant Garamond';
-    border: blueviolet;
-    border-width: 5px;
+ font-size: 20px;
+ font-family: 'Questrial', sans-serif;
+ 
  }
  #open{
-    font-size: 30px;
-    font-family: 'Cormorant Garamond';
-    border: blueviolet;
-    border-width: 5px;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
  }
+ #add{
+   font-size: 20px;
+   font-family: 'Questrial', sans-serif;
+}
