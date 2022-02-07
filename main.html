@@ -4,9 +4,10 @@
     <title>
         Main Page
     </title>
-        <link rel="stylesheet" href="nav_bar.css">
+        <link rel="stylesheet" href="nav_bar.css"> <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Questrial&display=swap" rel="stylesheet">
 <head > 
-
     <div class="topnav">
       <a class="active" href="main.html">Home</a>
       <a href="medicines.html">Medicine</a>
@@ -18,21 +19,63 @@
       <a  href="login_page.html">Login</a>
   </div>
 </head>
-<hr size="3">
+<body>
+    <div class="container">
+    <div class="title">
+    North Forge<br>Medical
+     </div><br>
+     <div class="motto">
+    <p> To rekindle our patient’s lost hope</p>   
+     </div>
+    </div>
+</body>
+
 <style>
 * {box-sizing: border-box;}
 .mySlides {display: none;
+}
+.container
+{
+    float:right;
+    margin-right:60px;
+}
+.title
+{
+    margin-top:150px;
+    /* margin-right:150px; */
+    float:right;
+    font-family: 'Questrial', sans-serif;
+    color:#ffff;
+    font-size:75px;
+    text-transform:capitalize; text-transform: uppercase;
+    /* position:relative; */
 
+}
+.motto
+{
+    margin-top:300px;
+/* position:relative; */
+    /* float:right; */
+    font-family: 'Questrial', sans-serif;
+    color:#ffff;
+    font-size:25px;
+
+}
+
+
+body {
+    background-color:#82adad;
 }
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 600px;
-  position: relative;
+  position: absolute;
   margin: auto;
-  float: right;
+
 }
+
 
 /* Caption text */
 .text {
@@ -45,26 +88,6 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  float: right;
-}
 
 .active {
   background-color: #717171;
@@ -88,10 +111,6 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
 
 .mySlides fade
 </style>
@@ -101,21 +120,18 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="login.png" style="width:100%">
-  <div class="text">Caption Text</div>
+  <img src="handshake.png">
+
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="img1.jpeg" style="width:100%">
-  <div class="text">Caption Two</div>
+  <img src="dentist.png">
+  
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img2.jpeg" style="width:100%">
-  <div class="text">Caption Three</div>
+  <img src="building.png">
+ 
 </div>
 
 </div>
