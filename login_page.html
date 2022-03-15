@@ -31,9 +31,23 @@
             <label for="password">Password</label>       
             <input type="text" placeholder="Enter Password" name="password" > <br></br>   
  
-            <button type="submit">Login</button> 
+            <button type="submit" onclick="myFunction()">Login</button> 
             <div id="temp">Don't have an account?
             <a href="sign_up.html">Sign up</a></div>
     </form>     
+    <script>
+
+        function myFunction() {
+        var txt;
+        if (confirm("You are now logged in .You will be directed to next page!")) {
+            txt = "You pressed OK!";
+        } else {
+            txt = "You pressed Cancel!";
+        }
+        document.getElementById("demo").innerHTML = txt; }
+
+    </script>
+
 </body>     
+
 </html>  
