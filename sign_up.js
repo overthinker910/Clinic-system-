@@ -21,7 +21,7 @@ e.preventDefault();
 else if (b=='')
     alert ("Please enter confirm password");    
 else if (a!=b) {
-    alert ("Password did not match!")
+    alert ("Password did not match! Please try again ")
     return false;
 }
 
